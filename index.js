@@ -46,7 +46,7 @@ var handlers = {};
 handlers.hello = function(data, callback) {
 
     callback(200, {
-    	'data': 'Hi, Welcome to node app.'
+    	'data': 'Hi, Welcome to node app. updated!'
     });
 
 }
